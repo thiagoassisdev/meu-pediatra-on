@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Meu Pedriata ON</title>
+</head>
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "f72da8f5-280a-40f0-b1d9-020a1b8e731c", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "7324178e-830f-4ccf-89b8-49a36d59d633", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+    <header>
+        <a href="index.html"><img class="logo" src="assets/images/LogoBranca.png" alt="Logo Pediatra Amigo"></a> 
+ 
+         <div class="overlay-navigation">
+             <nav role="navigation">
+               <ul>
+                 <li><a href="index.html" data-content="Voltar para a página inicial">Início</a></li>
+                 <li><a href="index02.html" data-content="Deseja levar seu filho(a) a uma consulta?">Hospitais pertos de mim</a></li>
+                 <li><a href="index03.html" data-content="Tem uma criança doente ai?">Medicação e Vacinas</a></li>
+                 <li><a href="index04.html" data-content="Cadastre e acompanhe a saúde do seu filho(a)">Perfil da criança</a></li>
+                 <li><a href="index05.html" data-content="Que somos nós?">Integrantes</a></li>
+               </ul>
+             </nav>
+           </div>
+           
+           <section class="home">
+             <div class="open-overlay">
+               <span class="bar-top"></span>
+               <span class="bar-middle"></span>
+               <span class="bar-bottom"></span>
+             </div>
+           </section>
+     </header>
+
+     <div class="container">
+        <section class="page_one">
+            <h1 class="title_ODS">Hospitais perto de mim</h1>
+            <h3 class="sub_ODS">Veja quais são os hospitais que estão perto de sua localização</h3>
+
+            <p class="paragraph_one space">O recurso de localização de hospitais do SUS que ira ter no nosso site Meu Pediatra ON é uma 
+            funcionalidade essencial que visa facilitar o acesso dos pais aos serviços de 
+            saúde pública. Este recurso permite que os pais encontrem hospitais do SUS próximos 
+            à sua localização atual, proporcionando uma maneira rápida e eficiente de obter atendimento
+            médico para seus filhos quando necessário. Ao utilizar este recurso, o site irá acessar
+            a localização atual do usuário (com a permissão do usuário) e procurar os hospitais do SUS
+            mais próximos. Os resultados serão exibidos em um mapa interativo, juntamente com detalhes
+            como endereço, horário de funcionamento e informações de contato do hospital. Isso permite que os
+            pais planejem sua visita ao hospital de maneira eficaz.</p>
+
+            <p class="paragraph_one">Além disso, o recurso também pode fornecer direções passo a 
+              passo para o hospital escolhido, ajudando os pais a chegar ao hospital de maneira rápida e segura. 
+              Isso pode ser especialmente útil em situações de emergência, onde cada segundo conta.
+              Em resumo, a funcionalidade de localização de hospitais do SUS no nosso site meu Meu Pediatra ON é 
+              uma ferramenta valiosa que pode ajudar a garantir que as crianças recebam o atendimento médico de 
+              que precisam, quando precisam. É mais uma maneira de o nosso site apoiar os pais em sua 
+              jornada para cuidar da saúde de seus filhos.</p>
+            
+            <div class="box_one_image spacetwo">
+            <img class="image_maps" src="assets/images/OIG2.jpg" alt="Mapa">
+            </div>
+        </section>
+
+        <footer>
+
+          <div class="info_pediatra_amigo">
+          <p class="info_footer">© Copyright 2023 Meu Pediatra ON.</p>
+          <p class="info_footer">As diversas marcas comerciais pertencem a seus respectivos proprietários.</p>
+          <p class="info_footer">Av. Paulista 1106, São Paulo, SP, 01310-100</p>
+          </div>
+
+          <div class="integrantes_pediatra_amigo">
+          <p class="name_integrante">Integrantes</p>
+          <p class="name_integrante">Nome: Gustavo Araújo Maia            RM: 553270</p>
+          <p class="name_integrante">Nome: Thiago Rocha de Assis          RM: 553270</p>
+          <p class="name_integrante">Nome: Pedro Henrique Ferrari Reis    RM: 552678</p>
+          </div>
+      </footer>
+     </div>
+
+     <script src="js/script.js"></script>
+</body>
+</html>
