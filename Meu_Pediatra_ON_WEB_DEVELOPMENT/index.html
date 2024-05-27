@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Meu Pediatra ON</title>
+</head>
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "f72da8f5-280a-40f0-b1d9-020a1b8e731c", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "7324178e-830f-4ccf-89b8-49a36d59d633", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+    <header>
+       <a href="index.html"><img class="logo" src="assets/images/LogoBranca.png" alt="Logo Pediatra Amigo"></a> 
+
+        <div class="overlay-navigation">
+            <nav role="navigation">
+              <ul>
+                <li><a href="index.html" data-content="Voltar para a página inicial">Início</a></li>
+                <li><a href="index02.html" data-content="Deseja levar seu filho(a) a uma consulta?">Hospitais pertos de mim</a></li>
+                <li><a href="index03.html" data-content="Tem uma criança doente ai?">Medicação e Vácinas</a></li>
+                <li><a href="index04.html" data-content="Cadastre e acompanhe a saúde do seu filho(a)">Perfil da criança</a></li>
+                <li><a href="index05.html" data-content="Quem somos nós?">Integrantes</a></li>
+              </ul>
+            </nav>
+          </div>
+          
+          <section class="home">
+            <div class="open-overlay">
+              <span class="bar-top"></span>
+              <span class="bar-middle"></span>
+              <span class="bar-bottom"></span>
+            </div>
+          </section>
+    </header>
+
+    <div class="container">
+        <section class="page_one">
+            <h1 class="title_ODS">ODS 3</h1>
+            <h3 class="sub_ODS"> Mortalidade Materna e Infantil</h3>
+
+            <p class="paragraph_one space">A Terceira Meta dos Objetivos de Desenvolvimento Sustentável (ODS) da ONU está 
+                relacionada à saúde e é formulada da seguinte maneira: "Garantir uma vida saudável 
+                e promover o bem-estar para todos, em todas as idades". Essa meta é ampla e 
+                abrange vários aspectos da saúde global, incluindo a redução da mortalidade 
+                materna e infantil. A Submeta 3.1 é específica para a mortalidade materna e busca "reduzir a taxa de mortalidade materna global 
+                para menos de 70 por 100.000 nascidos vivos". Isso significa que o objetivo é melhorar as condições de saúde 
+                para as mulheres grávidas e reduzir os riscos associados à gravidez e ao parto. A Submeta 3.2 concentra-se na mortalidade 
+                infantil e visa "reduzir, até 2030, a taxa de mortalidade neonatal 
+                para, pelo menos, 12 por 1.000 nascidos vivos, e a taxa de mortalidade de crianças menores de 5 anos para, 
+                pelo menos, 25 por 1.000 nascidos vivos". Isso implica melhorar o acesso a serviços de saúde materno-infantil, 
+                garantir a qualidade do atendimento pré-natal e neonatal, e implementar estratégias eficazes para prevenir 
+                doenças infantis e melhorar a nutrição.</p>
+
+                <div class="box_one_image">
+                    <img class="image_ods" src="assets/images/banner2.png" alt="ODS3">
+                </div>
+
+                <p class="paragraph_one spacetwo">A mortalidade infantil no Brasil tem diminuído ao longo dos anos. Em 2019, foram notificados 35.293 óbitos infantis ao Sistema de Informação 
+                    sobre Mortalidade (SIM), mas após a aplicação dos fatores de correção para óbito infantil utilizando a metodologia da Busca 
+                    Ativa, estima-se que ocorreram 38.619 óbitos infantis no Brasil. As principais causas de morte na infância no Brasil em 1990 e 2015 
+                    foram a prematuridade, a doença diarreica, as anomalias congênitas, a asfixia no parto e a sepse neonatal. A prematuridade, 
+                    apesar de queda de 72% nas taxas, figurou como a principal causa de óbito em ambos os anos, seguida da doença diarreica, em 1990, 
+                    e das anomalias congênitas, da asfixia no parto e da sepse neonatal, em 2015.</p>
+
+                <p class="paragraph_one"></p>
+                
+                <p class="paragraph_one">Após um ano de vida, de 1 a 4 anos, a principal razão de morte é a causa externa, responsável por 33 mil mortes, 
+                seguidas de 29 mil de doenças respiratórias e 21 mil de doenças infecciosas e parasitárias. No Brasil, ao contrário do que ocorre em países 
+                desenvolvidos, as complicações que se estabelecem durante a gestação e parto
+                são as que representam as maiores causas de morte entre os neonatos, sendo responsáveis por, aproximadamente, 80% das mortes neonatais e 50%
+                da mortalidade infantil. Esses dados são preocupantes e mostram a necessidade de políticas públicas efetivas para melhorar as condições de saúde
+                das crianças no Brasil. A queda nas taxas de mortalidade na infância representa um importante ganho no período, com redução de disparidades
+                geográficas. As causas relacionadas ao cuidado em saúde na gestação, no parto e no nascimento figuram como as principais em 2015, em conjunto
+                com as anomalias congênitas.</p>
+
+                <p class="paragraph_one">Para isso tivemos a ideia de um sistema com um recurso inovador focado na saúde das crianças. Que será um site com o objetivo de fornecer
+                informações vitais e apoio aos pais e cuidadores, ajudando-os a cuidar da saúde de seus filhos de maneira eficaz e informada. 
+                O site irá oferece uma variedade de recursos úteis, incluindo:</p>
+
+
+                <div class="box_text_image spacetwo">
+                <div class="box_text_recursos_pediatra_amigo">
+                <p class="paragraph_two"><span class="bold_text">Indicações de remédios para dores:</span> Este recurso fornece informações sobre medicamentos seguros e eficazes que podem 
+                ser usados para aliviar a dor em crianças. Isso pode ser especialmente útil durante períodos de doença ou após 
+                procedimentos médicos.</p>
+
+                <p class="paragraph_two"><span class="bold_text">Calendário de vacinas:</span> Este recurso permite que os pais acompanhem as vacinas que seus filhos já receberam e recebam 
+                lembretes sobre as próximas vacinas que precisam ser administradas. Isso ajuda a garantir que as crianças estejam protegidas contra uma 
+                variedade de doenças graves.</p>
+                
+                <p class="paragraph_two"><span class="bold_text">Localizador de hospitais do SUS:</span> Este recurso ajuda os pais a encontrar 
+                hospitais próximos que sejam parte do Sistema Único de Saúde (SUS). Isso pode ser inestimável em situações de emergência.</p>
+                
+                <p class="paragraph_two"><span class="bold_text">Histórico de doenças:</span> Este recurso permite que os pais armazenem
+                informações sobre quaisquer doenças que seus filhos já tiveram. Isso pode ser útil para referência futura e para compartilhar com profissionais de saúde.</p>
+                </div>
+
+                <div class="box_image_pediatra_amigo">
+                <img class="logo_pediatra_amigo" src="assets/images/LogoBranca.png" alt="logo_black">
+                </div>
+                </div>
+
+                <p class="paragraph_one spacetwo">Acreditamos que este site terá um impacto positivo significativo na saúde das crianças no Brasil. 
+                Ao fornecer aos pais e cuidadores acesso a informações vitais e recursos úteis, podemos ajudar a garantir que todas as 
+                crianças recebam o cuidado de que precisam para crescer saudáveis e fortes. Além disso, ao facilitar o acesso a serviços 
+                de saúde e informações sobre vacinas, podemos ajudar a reduzir a incidência de doenças graves e melhorar a qualidade de 
+                vida das crianças em todo o país.</p>
+
+        </section>
+
+        <footer>
+
+            <div class="info_pediatra_amigo">
+            <p class="info_footer">© Copyright 2023 Pediatra Amigo.</p>
+            <p class="info_footer">As diversas marcas comerciais pertencem a seus respectivos proprietários.</p>
+            <p class="info_footer">Av. Paulista 1106, São Paulo, SP, 01310-100</p>
+            </div>
+
+            <div class="integrantes_pediatra_amigo">
+            <p class="name_integrante">Integrantes</p>
+            <p class="name_integrante">Nome: Gustavo Araújo Maia            RM: 553270</p>
+            <p class="name_integrante">Nome: Thiago Rocha de Assis          RM: 553270</p>
+            <p class="name_integrante">Nome: Pedro Henrique Ferrari Reis    RM: 552678</p>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
